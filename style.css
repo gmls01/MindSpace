@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #53bfc5;
+    padding: 3vh 2vw;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo img{
+    max-height: 50px;
+    max-width: 120px;
+}
+
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 4vw;
+}
+
+.nav-links li{
+    margin: 1vh 2vw;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    transition: color 1.4s;
+}
+
+.nav-links a:hover{
+    color: rgba(255, 255, 255, 0.664); 
+}
+
+.nav-links-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;  
+    font-size: 16px;
+}
+
+.nav-links-2 a{
+    text-decoration: none;
+    padding: 1vh 2vw;
+}
+
+.btn-login{
+    color: #000000;
+    transition: color 1.4s;
+}
+
+.btn-login:hover{
+    color: rgba(255, 255, 255, 0.664); 
+}
+
+.btn-login-2{
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffffec;
+    border-radius: 12px;
+    text-align: center;
+    transition: background-color 1s;
+}
+
+.btn-login-2:hover{
+    background-color: #838383a1;
+}
+
+.separator{
+    height: 2em;
+    width: 0.2vw;
+    background-color: #ffffff77;
+    margin: 0 7vw;
+}
+
+
+.home-page{
+    display: block;
+    background-color: #ecebeb46;
+}
+
+.home-container{
+    text-align: center;
+}
+
+.home-container img{
+    padding: 7vh 34vw;
+    max-height: 50vh;
+    max-width: 30vw;
+}
+
+.home-container h1{
+    padding: 1vh 20vw;
+    font-size: 45px;
+}
+
+.home-container h2{
+    padding: 1vh 20vw;
+    font-size: 20px;
+}

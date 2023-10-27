@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/*nav*/
+/*cabeçalho e links*/
 .navbar{
     display: flex;
     align-items: center;
@@ -11,6 +13,7 @@
     padding: 3vh 2vw;
 }
 
+/*imagem do mindspace (nav)*/
 .logo{
     display: flex;
     justify-content: flex-start;
@@ -21,35 +24,44 @@
     max-width: 120px;
 }
 
-
+/*links*/
 .nav-links{
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin-left: 4vw;
+    margin-left: 5vw;
 }
 
 .nav-links li{
-    margin: 1vh 2vw;
+    margin: 0 1vw;
 }
 
 .nav-links a{
     text-decoration: none;
     color: #000000;
-    font-size: 16px;
-    transition: color 1.4s;
+    font-size: 17px;
+    transition: 0.7s;
 }
 
 .nav-links a:hover{
     color: rgba(255, 255, 255, 0.664); 
 }
 
+
+.separator{
+    height: 2em;
+    width: 0.2vw;
+    background-color: #ffffff77;
+    margin: 0 4vw;
+}
+
+/*botões*/
 .nav-links-2{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     list-style-type: none;  
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .nav-links-2 a{
@@ -59,7 +71,7 @@
 
 .btn-login{
     color: #000000;
-    transition: color 1.4s;
+    transition: 0.7s;
 }
 
 .btn-login:hover{
@@ -72,42 +84,123 @@
     color: #ffffffec;
     border-radius: 12px;
     text-align: center;
-    transition: background-color 1s;
+    transition: 0.7s;
 }
 
 .btn-login-2:hover{
     background-color: #838383a1;
 }
 
-.separator{
-    height: 2em;
-    width: 0.2vw;
-    background-color: #ffffff77;
-    margin: 0 7vw;
-}
 
 
+/*main*/
+/*apresentação do mindspace*/
 .home-page{
     display: block;
     background-color: #ecebeb46;
 }
 
-.home-container{
+.home-container-1{
     text-align: center;
 }
 
-.home-container img{
+/*imagem do mindspace (main)*/
+.home-container-1 img{
     padding: 7vh 34vw;
     max-height: 50vh;
     max-width: 30vw;
 }
 
-.home-container h1{
+/*textos apresentação do mindspace*/
+.home-container-1 h1{
     padding: 1vh 20vw;
-    font-size: 45px;
+    font-size: 35px;
 }
 
-.home-container h2{
+.home-container-1 h2{
     padding: 1vh 20vw;
     font-size: 20px;
+}
+
+/*aba nossos colaboradores*/
+.home-colaboradores{
+    margin-top: 17vh;
+    background-color: #d3d3d333;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0 30vw;
+    padding-top: 6vh;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    
+}
+
+
+.home-container-2{
+    display: flex;
+    margin-top: 13vh;
+    overflow: hidden;
+}
+
+/*imagens dos colaboradores*/
+.colaboradores{
+    position: relative;
+    margin: 0 4vw;
+    animation: scroll-colaboradores 20s linear infinite;
+}
+
+.colaboradores img{
+    height: 400px;
+    width: 270px;
+    border-radius: 25px;
+}
+
+/*infomações dos colaboradores*/
+.colaboradores .info-colaboradores{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.nome{
+    font-size: 25px;
+    color: #ebebeb;
+}
+
+.formacao{
+    font-size: 17px;
+    color: #ebebeb;
+}
+
+.btn-mais{
+    display: inline-block;
+    background-color: #b3b3b31e;
+    border-radius: 17px;
+    text-align: center;
+    padding: 2vh 3vw;
+    border: 2px solid #ebebebe0;
+    transition: 1s;
+    cursor: pointer;
+    color: #ffffffec; 
+    margin-top: 0.5vh;
+}
+
+.btn-mais:hover{
+    background-color: #2c2c2c96;
+}
+
+.saiba-mais a{
+    text-decoration: none;
+}
+
+/*funcionalidade para imagens dos colaboradores*/
+@keyframes scroll-colaboradores {
+    from {
+        transform: translateX(3vw);
+    }
+    to {
+        transform: translateX(-195.7vw);
+    }
 }

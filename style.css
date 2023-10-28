@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     background-color: #53bfc5;
-    padding: 3vh 2vw;
+    padding: 3vh 4vw;
 }
 
 /*imagem do mindspace (nav)*/
@@ -20,8 +20,8 @@
 }
 
 .logo img{
-    max-height: 50px;
-    max-width: 120px;
+    height: 6vh;
+    width: 10vw;
 }
 
 /*links*/
@@ -39,7 +39,7 @@
 .nav-links a{
     text-decoration: none;
     color: #000000;
-    font-size: 17px;
+    font-size: 1.2vw;
     transition: 0.7s;
 }
 
@@ -52,7 +52,7 @@
     height: 2em;
     width: 0.2vw;
     background-color: #ffffff77;
-    margin: 0 4vw;
+    margin: 0 2.7vw;
 }
 
 /*botões*/
@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: flex-end;
     list-style-type: none;  
-    font-size: 17px;
+    font-size: 1.2vw;
 }
 
 .nav-links-2 a{
@@ -114,27 +114,27 @@
 /*textos apresentação do mindspace*/
 .home-container-1 h1{
     padding: 1vh 20vw;
-    font-size: 35px;
+    font-size: 2.8vw;
 }
 
 .home-container-1 h2{
     padding: 1vh 20vw;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 /*aba nossos colaboradores*/
 .home-colaboradores{
     margin-top: 17vh;
-    background-color: #d3d3d333;
+    background-color: #8d8d8d1e;
 }
 
 .titulo{
     text-align: center;
     margin: 0 30vw;
     padding-top: 6vh;
-    font-size: 35px;
-    border-bottom: 2px solid black;
-    
+    font-size: 2.8vw;
+    border-bottom: 2px solid #13131379;
+    color: #13131379;
 }
 
 
@@ -142,6 +142,7 @@
     display: flex;
     margin-top: 13vh;
     overflow: hidden;
+    padding-bottom: 15vh;
 }
 
 /*imagens dos colaboradores*/
@@ -152,8 +153,8 @@
 }
 
 .colaboradores img{
-    height: 400px;
-    width: 270px;
+    height: 70vh;
+    width: 22vw;
     border-radius: 25px;
 }
 
@@ -165,12 +166,12 @@
 }
 
 .nome{
-    font-size: 25px;
+    font-size: 1.7vw;
     color: #ebebeb;
 }
 
 .formacao{
-    font-size: 17px;
+    font-size: 1.2vw;
     color: #ebebeb;
 }
 
@@ -195,12 +196,95 @@
     text-decoration: none;
 }
 
+.saiba-mais input{
+    font-size: 1vw;
+}
+
+/*rodapé*/
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #ecebeb46;
+    padding: 2vh 6vw;
+}
+
+.logo-footer{
+    display: flex;
+    position: relative;
+}
+
+.logo-footer img{
+    height: 6vh;
+    width: 12vw;
+}
+
+
+.footer-copy{
+    display: flex;
+    position: absolute;
+    bottom: -7.5vh;
+    left: -4vw;
+}
+
+
+.footer-copy a{
+    text-decoration: none;
+    color: #13131379;
+    font-size: 1vw;
+    transition: 0.7s;
+    padding: 0 1vw;
+}
+
+.footer-copy a:hover{
+    color: #000000; 
+}
+
+.footer-copy p{
+    color: #13131379;
+    font-size: 1vw;
+}
+
+.redes-socias{
+    margin-top: 15vh;
+    margin-left: 1vw;
+}
+
+.redes-socias img{
+    height: 4.5vh;
+    width: 2.2vw;
+    margin: 0 0.2vw;
+}
+
+.footer-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10vw;
+}
+
+.footer-links li{
+    margin: 0 4vw;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2vw;
+    transition: 0.7s;
+}
+
+.footer-links a:hover{
+    color: #13131346; 
+}
+
+
+
 /*funcionalidade para imagens dos colaboradores*/
 @keyframes scroll-colaboradores {
     from {
         transform: translateX(3vw);
     }
     to {
-        transform: translateX(-195.7vw);
+        transform: translateX(-207.3vw);
     }
 }

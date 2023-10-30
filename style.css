@@ -155,7 +155,7 @@
 .colaboradores img{
     height: 70vh;
     width: 22vw;
-    border-radius: 25px;
+    border-radius: 3vw;
 }
 
 /*infomações dos colaboradores*/
@@ -246,7 +246,7 @@
 
 .redes-socias{
     margin-top: 15vh;
-    margin-left: 1vw;
+    margin-left: 0.3vw;
 }
 
 .redes-socias img{

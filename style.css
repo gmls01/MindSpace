@@ -92,7 +92,6 @@
 }
 
 
-
 /*main*/
 /*apresentação do mindspace*/
 .home-page{
@@ -287,4 +286,37 @@
     to {
         transform: translateX(-207.3vw);
     }
+}
+
+/*telas de login*/
+
+.login{
+   background-color: #53bfc5;
+}
+
+.div-container{
+    display: flex;
+    justify-content: end;
+    margin: 13vh 17vw;
+    border-radius: 3vw;
+    background-color: #87d4c6
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 45vw;
+    border-radius: 3vw;
+    background-color: #ffffff;
+}
+
+.login-imagem{
+    display: flex;
+}
+
+.login-imagem img{
+    height: 12vh;
+    width: 7vw;
 }

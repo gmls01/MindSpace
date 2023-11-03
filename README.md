@@ -12,3 +12,4 @@ O MindSpace é uma plataforma web que permite aos usuários lidar e compreender 
 - CSS3
 - JavaScript
 - SQL
+- GIT

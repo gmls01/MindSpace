@@ -1,0 +1,56 @@
+/*telas de login*/
+.login{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #53bfc5;
+ }
+ 
+ .div-container{
+     display: flex;
+     justify-content: end;
+     margin: 13vh 17vw;
+     border-radius: 3vw;
+     background-color: #87d4c6
+ }
+ 
+ /*parte direita do login*/
+ .login-container{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 70vh;
+     width: 45vw;
+     border-radius: 3vw;
+     background-color: #ffffff;
+ }
+ 
+ .login-imagem{
+     display: flex;
+     margin-top: 7vh;
+ }
+ 
+ .login-imagem img{
+     height: 20vh;
+     width: 11vw;
+ }
+ 
+ .login-dados{
+     display: flex;
+     flex-direction: column;
+     margin-top: 6vh;
+ }
+ 
+ .login-dados input{
+     position: relative;
+     padding: 0 1vw;
+     width: 25vw;
+     outline: none;
+     border: none;
+     font-size: 1.4vw;
+     border-bottom: 0.2vw solid #636363
+ }
+ 
+ .login-dados #senha{
+     margin-top: 4vh;
+ }

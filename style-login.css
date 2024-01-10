@@ -6,7 +6,7 @@
     background-color: #53bfc5;
  }
  
- .div-container{
+.div-container{
      display: flex;
      justify-content: end;
      margin: 13vh 17vw;
@@ -14,8 +14,8 @@
      background-color: #87d4c6
  }
  
- /*parte direita do login*/
- .login-container{
+/*parte direita do login*/
+.login-container{
      display: flex;
      align-items: center;
      flex-direction: column;
@@ -25,23 +25,23 @@
      background-color: #ffffff;
  }
  
- .login-imagem{
+.login-imagem{
      display: flex;
      margin-top: 7vh;
  }
  
- .login-imagem img{
+.login-imagem img{
      height: 20vh;
      width: 11vw;
  }
  
- .login-dados{
+.login-dados{
      display: flex;
      flex-direction: column;
      margin-top: 6vh;
  }
  
- .login-dados input{
+.login-dados input{
      position: relative;
      padding: 0 1vw;
      width: 25vw;
@@ -51,6 +51,44 @@
      border-bottom: 0.2vw solid #636363
  }
  
- .login-dados #senha{
-     margin-top: 4vh;
+.login-dados #senha{
+     margin-top: 3vh;
  }
+
+ .botoes-container{
+    display: flex;
+    margin-top: 8vh;
+    gap: 15vw;
+ }
+
+.botoes-container a{
+    text-decoration: none;
+ }
+
+.botoes-container #esqueceu-senha{
+    margin-top: 1vh;
+    font-size: 1.05vw;
+    color: black;
+    transition: 0.7s;
+ }
+
+#esqueceu-senha:hover{
+    color: rgba(214, 214, 214, 0.863)
+ }
+
+.botoes-container #avançar{
+    padding: 1vh 3vw;
+    background-color: #87d4c6;
+    color: #000000;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.2vw;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.7s;
+ }
+
+#avançar:hover{
+    background-color: #87d4c693;
+    color: rgba(0, 0, 0, 0.712)
+}

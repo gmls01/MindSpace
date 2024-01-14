@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     background-color: #53bfc5;
- }
+}
  
 .div-container{
      display: flex;
@@ -12,83 +12,157 @@
      margin: 13vh 17vw;
      border-radius: 3vw;
      background-color: #87d4c6
- }
+}
  
 /*parte direita do login*/
 .login-container{
-     display: flex;
-     align-items: center;
-     flex-direction: column;
      height: 70vh;
      width: 45vw;
      border-radius: 3vw;
      background-color: #ffffff;
- }
+}
  
+/*logo da tela de login*/
 .login-imagem{
      display: flex;
-     margin-top: 7vh;
- }
+     justify-content: center;
+     align-items: center;
+     margin-top: -5vh;
+}
  
 .login-imagem img{
      height: 20vh;
      width: 11vw;
- }
+}
  
+/*seta da tela de login*/
+.login-seta {
+    display: flex;
+    justify-content: end;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+
+.login-seta img{
+    height: 9vh;
+    width: 4vw;
+}
+
+/*inputs/dados da tela de login*/
 .login-dados{
      display: flex;
+     justify-content: center;
+     align-items: center;
      flex-direction: column;
      margin-top: 6vh;
- }
+}
  
 .login-dados input{
-     position: relative;
      padding: 0 1vw;
      width: 25vw;
      outline: none;
      border: none;
      font-size: 1.4vw;
      border-bottom: 0.2vw solid #636363
- }
+}
  
 .login-dados #senha{
      margin-top: 3vh;
- }
+}
 
- .botoes-container{
+/*botões da parte direita do login*/
+.botoes-container{
     display: flex;
-    margin-top: 8vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
     gap: 15vw;
- }
+}
 
 .botoes-container a{
     text-decoration: none;
- }
+}
 
 .botoes-container #esqueceu-senha{
     margin-top: 1vh;
     font-size: 1.05vw;
     color: black;
-    transition: 0.7s;
- }
+    transition: 0.3s;
+}
 
 #esqueceu-senha:hover{
     color: rgba(214, 214, 214, 0.863)
- }
+}
 
 .botoes-container #avançar{
     padding: 1vh 3vw;
     background-color: #87d4c6;
     color: #000000;
-    border-radius: 12px;
+    border-radius: 2vw;
     border: none;
     font-size: 1.2vw;
     text-align: center;
     cursor: pointer;
-    transition: 0.7s;
- }
+    transition: 0.3s;
+}
 
 #avançar:hover{
     background-color: #87d4c693;
     color: rgba(0, 0, 0, 0.712)
+}
+
+/*rodapé da parte direita do login*/
+.login-footer{
+    display: flex;
+    justify-content: center;
+    background: #63636325;
+    padding: 1.5vh;
+    border-radius: 4vw;
+    margin-top: 4.3vh;    
+}
+
+.login-footer p{
+    font-size: 1.2vw;
+    margin-right: 3vw;
+    margin-left: -2vw;
+    color: #00000071;
+}
+
+.login-footer img{
+    height: 4.5vh;
+    width: 2.2vw;
+    margin: 1.8vh;
+}
+
+.separador{
+    height: 2em;
+    width: 0.2vw;
+    background-color: #ffffff77;
+    margin: 1.5vh 0.5vw;
+}
+
+/*parte esquerda da tela de login*/
+.login-botoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 23vh;
+    font-size: 1.6vw;
+}
+
+.login-botoes .botao-entrar{
+    background: #ffffff;
+    padding: 5vh 5vw;
+    border-radius: 1.5vw 0 0 1.5vw;
+}
+
+.login-botoes .botao-cadastro{
+    text-decoration: none;
+    margin-top: 3vh;
+    color: #000000;
+    transition: 0.3s;  
+}
+
+.login-botoes .botao-cadastro:hover{
+    color: rgba(255, 255, 255, 0.562)  
 }

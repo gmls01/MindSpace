@@ -40,13 +40,12 @@
     text-decoration: none;
     color: #000000;
     font-size: 1.2vw;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 .nav-links a:hover{
     color: rgba(255, 255, 255, 0.664); 
 }
-
 
 .separador{
     height: 2em;
@@ -71,7 +70,7 @@
 
 .btn-login{
     color: #000000;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 .btn-login:hover{
@@ -84,13 +83,12 @@
     color: #ffffffec;
     border-radius: 12px;
     text-align: center;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 .btn-login-2:hover{
     background-color: #838383a1;
 }
-
 
 /*main*/
 /*apresentação do mindspace*/
@@ -135,7 +133,6 @@
     border-bottom: 2px solid #13131379;
     color: #13131379;
 }
-
 
 .home-container-2{
     display: flex;
@@ -217,7 +214,6 @@
     width: 12vw;
 }
 
-
 .footer-copy{
     display: flex;
     position: absolute;
@@ -225,12 +221,11 @@
     left: -4vw;
 }
 
-
 .footer-copy a{
     text-decoration: none;
     color: #13131379;
     font-size: 1vw;
-    transition: 0.7s;
+    transition: 0.3s;
     padding: 0 1vw;
 }
 
@@ -269,14 +264,12 @@
     text-decoration: none;
     color: #000000;
     font-size: 1.2vw;
-    transition: 0.7s;
+    transition: 0.3s;
 }
 
 .footer-links a:hover{
     color: #13131346; 
 }
-
-
 
 /*funcionalidade para imagens dos colaboradores*/
 @keyframes scroll-colaboradores {

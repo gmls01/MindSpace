@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-cadastro.css">
+    <script src="./script.js"></script>
+    <title>MindSpace</title>
+</head>
+<body class="cadastro">
+    <!--tela de login-->
+    <div class="div-container">
+
+        <div class="cadastro-botoes">
+            <a href="./login.html" class="botao-entrar">Entrar</a>
+            <span class="botao-cadastro">Cadastrar-se</span>
+        </div>
+       
+        <div class="cadastro-container">
+
+            <h1 class="titulo">Dados Para Cadastro</h1>
+
+            <div class="cadastro-dados">
+
+                <div class="dados-basicos">
+                    <input type="text" id="nome-cadastro" name="nome-cadastro" placeholder="Nome completo" required>
+                    <input type="email" id="email-cadastro" name="email-cadastro" placeholder="Email" required>
+                </div>
+
+                <div class="senhas">
+                    <input type="password" id="senha-cadastro" name="senha-cadastro" placeholder="Criar senha" required>
+                    <img src="./imagens/mindspace-icons/eye-close.png" alt="Olho fechado" id="btn-eye-pass" onclick="criarSenha()">
+                </div>
+                <div class="senhas">
+                    <input type="password" id="senha-confirm-cadastro" name="senha-confirm-cadastro" placeholder="Confirmar senha" required>
+                    <img src="./imagens/mindspace-icons/eye-close.png" alt="Olho fechado" id="btn-eye-confirm" onclick="confirmarSenha()">
+                </div>
+
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento-cadastro" name="nascimento-cadastro" required>
+                
+                <label for="genero">Gênero:</label>
+                <select id="genero-cadastro" name="genero-cadastro" required>
+                    <option value="">Selecione o gênero</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            
+                <!--<div class="cadastro-footer">
+                    <img src="./imagens/mindspace-icons/seta-esquerda.png" alt="Seta-esquerda">
+                    <img src="./imagens/mindspace-icons/botao-fill.png" alt="Botao-fill">
+                    <a href=""><img src="./imagens/mindspace-icons/botao-empty.png" alt="Botao-empty"></a>
+                    <a href=""><img src="./imagens/mindspace-icons/seta-direita.png" alt="Seta-direita"></a>
+                </div>-->
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

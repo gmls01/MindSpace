@@ -7,39 +7,66 @@
 }
  
 .div-container{
-     display: flex;
-     justify-content: end;
-     margin: 13vh 17vw;
-     border-radius: 3vw;
-     background-color: #87d4c6
+    display: flex;
+    justify-content: end;
+    margin: 6.5vh 17vw;
+    border-radius: 3vw;
+    background-color: #87d4c6
 }
  
 /*parte direita do login*/
 .login-container{
-     height: 70vh;
-     width: 45vw;
-     border-radius: 3vw;
-     background-color: #ffffff;
+    height: 87vh;
+    width: 45vw;
+    border-radius: 3vw;
+    background-color: #ffffff;
+}
+
+/*parte esquerda da tela de login*/
+.login-botoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 23vh;
+    font-size: 1.6vw;
+    font-weight: bold;
+}
+
+.login-botoes .botao-entrar{
+    background: #ffffff;
+    padding: 6vh 5vw;
+    border-radius: 1.5vw 0 0 1.5vw;
+}
+
+.login-botoes .botao-cadastro{
+    text-decoration: none;
+    margin-top: 5vh;
+    color: #000000;
+    transition: 0.3s;  
+}
+
+.login-botoes .botao-cadastro:hover{
+    color: rgba(255, 255, 255, 0.562)  
 }
  
 /*logo da tela de login*/
 .login-imagem{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-top: -5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
 }
  
 .login-imagem img{
-     height: 20vh;
-     width: 11vw;
+    height: 23vh;
+    width: 13vw;
 }
  
 /*seta da tela de login*/
 .login-seta {
     display: flex;
     justify-content: end;
-    margin-top: 1vh;
+    margin-top: 3vh;
     margin-right: 1vw;
 }
 
@@ -50,24 +77,43 @@
 
 /*inputs/dados da tela de login*/
 .login-dados{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
 }
  
 .login-dados input{
-     padding: 0 1vw;
-     width: 25vw;
-     outline: none;
-     border: none;
-     font-size: 1.4vw;
-     border-bottom: 0.2vw solid #636363
+    padding: 0 1vw;
+    width: 25vw;
+    outline: none;
+    border: none;
+    font-size: 1.2vw;
+    border-bottom: 0.2vw solid #636363;
+    margin: 0 0 4vh 0;
 }
- 
-.login-dados #senha{
-     margin-top: 3vh;
+
+.senha{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.senha input{
+    padding: 0 1vw;
+    width: 25vw;
+    outline: none;
+    border: none;
+    font-size: 1.2vw;
+    border-bottom: 0.2vw solid #636363;
+    margin: 0 0 3vh 0;
+}
+
+.senha img{
+    position: absolute;
+    margin-left: 23.5vw;
+    height: 2.7vh;
+    width: 1.7vw;
+    cursor: pointer;
 }
 
 /*botões da parte direita do login*/
@@ -75,7 +121,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7vh;
+    margin: 3vh 0 4.5vh 0;
     gap: 15vw;
 }
 
@@ -118,7 +164,7 @@
     background: #63636325;
     padding: 1.5vh;
     border-radius: 4vw;
-    margin-top: 4.3vh;    
+    margin: 2vh;    
 }
 
 .login-footer p{
@@ -131,38 +177,17 @@
 .login-footer img{
     height: 4.5vh;
     width: 2.2vw;
-    margin: 1.8vh;
+    margin-top: 2vh;
+}
+
+.login-footer a{
+    height: 4.5vh;
+    width: 2.2vw;
 }
 
 .separador{
-    height: 2em;
+    height: 6vh;
     width: 0.2vw;
     background-color: #ffffff77;
-    margin: 1.5vh 0.5vw;
-}
-
-/*parte esquerda da tela de login*/
-.login-botoes{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 23vh;
-    font-size: 1.6vw;
-}
-
-.login-botoes .botao-entrar{
-    background: #ffffff;
-    padding: 5vh 5vw;
-    border-radius: 1.5vw 0 0 1.5vw;
-}
-
-.login-botoes .botao-cadastro{
-    text-decoration: none;
-    margin-top: 3vh;
-    color: #000000;
-    transition: 0.3s;  
-}
-
-.login-botoes .botao-cadastro:hover{
-    color: rgba(255, 255, 255, 0.562)  
+    margin: 1.5vh 0.9vw;
 }

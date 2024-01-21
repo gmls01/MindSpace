@@ -13,23 +13,27 @@
         
             <div class="login-botoes">
                 <span class="botao-entrar">Entrar</span>
-                <a href="" class="botao-cadastro">Cadastro</a>
+                <a href="./cadastro.html" class="botao-cadastro">Cadastrar-se</a>
             </div>
        
 
         <div class="login-container">
 
             <div class="login-seta">
-                <a href="./index.html"><img src="./imagens/seta.png" alt="seta" onmouseover="this. src='./imagens/seta2.png'" onmouseout="this. src='./imagens/seta.png'"></a>
+                <a href="./index.html"><img src="./imagens/mindspace-icons/seta.png" alt="seta" onmouseover="this. src='./imagens/mindspace-icons/seta2.png'" onmouseout="this. src='./imagens/mindspace-icons/seta.png'"></a>
             </div>
 
             <div class="login-imagem">
-                <img src="./imagens/logo.png" alt="logo">
+                <img src="./imagens/mindspace-icons/logo.png" alt="logo">
             </div>
 
             <div class="login-dados">
-                <input type="email" id="email" placeholder="Email" required>
-                <input type="password" id="senha" placeholder="Senha" required>
+                <input type="email" id="email-login" name="email-login" placeholder="Email" required>
+            </div>
+
+            <div class="senha">
+                <input type="password" id="senha-login" name="senha-login" placeholder="Senha" required>
+                <img src="./imagens/mindspace-icons/eye-close.png" alt="Olho fechado" id="btn-eye-password" onclick="mostrarSenha()">
             </div>
 
             <div class="botoes-container">
@@ -39,9 +43,9 @@
 
             <div class="login-footer">
                 <p>Entrar com:</p>
-                <a href=""><img src="./imagens/google-color.png" alt="Google"></a>
+                <a href=""><img src="./imagens/links/google-color.png" alt="Google"></a>
                 <div class="separador"></div>
-                <a href=""><img src="./imagens/facebook-color.png" alt="Facebook"></a>
+                <a href=""><img src="./imagens/links/facebook-color.png" alt="Facebook"></a>
             </div>
         
         </div>
